@@ -4,7 +4,7 @@ import random
 import pandas as pd
 
 def loadCsv(filename):
-    lines = pd.read_csv(r'f:\Dropbox\python\iris.data')
+    lines = pd.read_csv(r'iris.data')
     snf = lines.iloc[:,-1]
     veri=lines.iloc[:,0:4]
     
